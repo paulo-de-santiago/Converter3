@@ -1,0 +1,112 @@
+
+
+html {
+  background-color: rgb(214, 203, 203);
+}
+
+body {
+ /*  margin: 9; */ 
+  margin-top: 2cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  padding: 12;
+  border-radius: 21px; 
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+  background-image: /* url("\NEuip.jpg"),  */
+  linear-gradient(to bottom, rgba(209, 38, 129, 0.825),rgba(37, 37, 213, 0.712));
+  box-sizing: border-box; 
+  font-weight: bold;
+  color: rgba(2, 2, 2, 0.885);
+  text-align: center; 
+
+  margin-bottom: 89px;
+}
+
+#numberinput{
+
+  padding: 5px; 
+  height: 46px;
+  width: 59px;
+  border-color: rgba(20, 20, 138, 0.712); 
+  background-color: rgba(203, 203, 229, 0.577);
+  color: rgba(2, 2, 2, 0.727);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+  position: relative;
+  border-radius: 12px;
+  
+
+}
+
+.button {
+  /* cursor: pointer; */
+  /* position: relative; */
+  border-color: rgba(20, 20, 138, 0.712); 
+  border-radius: 12px;
+/*   border-bottom: 12px; */
+  height: 46px;
+  width: 255px;
+  background-color: rgba(203, 203, 229, 0.577);
+  color: rgba(2, 2, 2, 0.727);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+
+}
+
+.button:hover {
+  border-color: blue;
+}
+
+.buttonunits {
+/*   border-color: black; */
+  background-image: linear-gradient(to bottom, rgba(37, 37, 213, 0.712),rgba(209, 38, 129, 0.825));
+  color: rgba(2, 2, 2, 0.885);
+  margin-left: 45;
+  margin-right: 45;
+  margin-top: 12;
+  margin-bottom: 12; 
+  border-radius: 12px;
+  border-bottom: 23px;
+/*   background-color: linear-gradient(to top, rgba(187, 31, 114, 0.5),rgba(17, 17, 97, 0.5));; */
+}
+
+.buttonunits p {
+  /*   border-color: black; */
+   font-weight: bold;
+    height: 27; 
+    
+    color: rgba(2, 2, 2, 0.727);
+    background-image: linear-gradient(to top, rgba(52, 52, 159, 0.712),rgba(209, 38, 129, 0.825));
+    color: rgba(2, 2, 2, 0.727); 
+    border-radius: 12px;
+    border-bottom: 23px;
+    border-bottom: 23px; 
+   
+  /*   background-color: linear-gradient(to top, rgba(187, 31, 114, 0.5),rgba(17, 17, 97, 0.5));; */
+  }
+ /*  */
+
+
+/* body {
+  margin: 9; 
+  margin-top: 0.1cm;
+  padding: 0; 
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+  background-image:url("\NEuip.jpg"), 
+  linear-gradient(to bottom, rgba(190, 0, 102, 0.5), rgba(0,0,255,0.5));
+ /*  background-size: cover; 
+  font-weight: bold;
+  color: white;
+  text-align: center; 
+  box-sizing: border-box; 
+} */
+
+ 
+/* #numberinput {
+  color: black;
+} */
+
+/* #units {
+  font-weight: bold;
+  text-emphasis-color: rgb(112, 64, 64);
+  text-align: center;
+} */
+
